@@ -6,14 +6,22 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
 import java.net.URL;
 
 public class Request {
 
     URL url;
 
-    public Request(URL url){
-        this.url = url;
+    public Request(String stringUrl){
+
+        try{
+            this.url = new URL(stringUrl);
+
+        }
+        catch(MalformedURLException e) {
+            this.url = null;
+        }
     }
 
     public HttpURLConnection openConnection(){
