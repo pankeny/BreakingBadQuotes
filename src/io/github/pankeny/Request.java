@@ -11,7 +11,7 @@ import java.net.URL;
 
 public class Request {
 
-    URL url;
+    private URL url;
 
     public Request(String stringUrl){
 
@@ -37,7 +37,7 @@ public class Request {
         }
     }
 
-    public String getJsonObjectFromUrl(){
+    public String getContentFromUrl(){
 
         StringBuilder stringBuilder = new StringBuilder();
 
