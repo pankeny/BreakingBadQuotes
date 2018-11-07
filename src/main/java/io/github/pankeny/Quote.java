@@ -1,6 +1,10 @@
 package io.github.pankeny;
 
+import java.util.List;
+
 public class Quote {
+
+    List<Quote> arrayOfQuotes;
 
     String quote;
     String author;
@@ -21,9 +25,10 @@ public class Quote {
         this.author = author;
     }
 
+
     @Override
     public String toString() {
-        return "Your random quote is: \n" + quote + " - " + author;
+        return "\"" + quote + "\" - " + author;
     }
 
 }
