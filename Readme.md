@@ -12,3 +12,5 @@ IntelliJ Idea Ultimate
 * Parse JSON object from string
 * Assign json object values to [`Quote`](https://github.com/pankeny/BreakingBadQuotes/blob/master/src/main/java/io/github/pankeny/Quote.java) object fields
 * Display random quote with author
+* Parse array of quotes to `ArrayList<Quote>`
+* Display all quotes from `ArrayList<Quote>`
