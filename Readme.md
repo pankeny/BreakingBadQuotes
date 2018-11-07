@@ -14,3 +14,7 @@ IntelliJ Idea Ultimate
 * Display random quote with author
 * Parse array of quotes to `ArrayList<Quote>`
 * Display all quotes from `ArrayList<Quote>`
+
+### EXAMPLE OF USE
+
+![EXAMPLE n.01](https://github.com/pankeny/BreakingBadQuotes/blob/master/ScreenShoot01.png?raw=true)
