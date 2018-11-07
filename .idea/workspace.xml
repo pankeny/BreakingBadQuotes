@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="96ccaeb6-1d45-40dd-9dec-69e18760d82d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pankeny/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pankeny/Request.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/pankeny/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/pankeny/Quote.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/pankeny/Quote.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,7 +25,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
+          <entry key="class" value="2" />
           <entry key="iml" value="1" />
           <entry key="java" value="4" />
           <entry key="xml" value="1" />
@@ -34,7 +33,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
+          <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="4" />
           <entry key="XML" value="1" />
@@ -42,15 +41,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2375" />
-          <entry key="txt" value="490" />
+          <entry key="java" value="3418" />
+          <entry key="txt" value="721" />
           <entry key="xml" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2375" />
-          <entry key="PLAIN_TEXT" value="490" />
+          <entry key="JAVA" value="3418" />
+          <entry key="PLAIN_TEXT" value="721" />
           <entry key="XML" value="52" />
         </counts>
       </usages-collector>
@@ -61,16 +60,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/github/pankeny/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            <state relative-caret-position="71">
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#554#561#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/github/pankeny/Request.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
+            <state relative-caret-position="785">
               <caret line="54" column="44" lean-forward="true" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -79,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/github/pankeny/Quote.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+            <state relative-caret-position="-105">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="e#117#118#0" expanded="true" />
                 <element signature="e#145#146#0" expanded="true" />
@@ -93,8 +96,21 @@
                 <element signature="e#283#284#0" expanded="true" />
                 <element signature="e#327#328#0" expanded="true" />
                 <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#409#410#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/json/json/20160810/json-20160810.jar!/org/json/JSONArray.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="90" column="28" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
+              <folding>
+                <element signature="e#2486#2487#0" expanded="true" />
+                <element signature="e#2536#2537#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,9 +137,9 @@
         <option value="$PROJECT_DIR$/src/io/github/pankeny/Parser.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/pankeny/Parser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/pankeny/Quote.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/pankeny/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/pankeny/Request.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/pankeny/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/pankeny/Quote.java" />
       </list>
     </option>
   </component>
@@ -135,7 +151,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="721" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -252,7 +268,7 @@
       <option name="presentableId" value="Default" />
       <updated>1541536702377</updated>
       <workItem from="1541536704057" duration="5175000" />
-      <workItem from="1541603605247" duration="3530000" />
+      <workItem from="1541603605247" duration="6226000" />
     </task>
     <task id="LOCAL-00001" summary="simple test quote (previously added also Request class)">
       <created>1541539740530</created>
@@ -296,17 +312,31 @@
       <option name="project" value="LOCAL" />
       <updated>1541614483206</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="more readable code in Request class">
+      <created>1541615536007</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1541615536007</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add new Request ( returns number of quotes ), parse array of json objects, display all quotes from list">
+      <created>1541618110737</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1541618110737</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8705000" />
+    <option name="totallyTimeSpent" value="11401000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="23" width="721" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.5213549" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -348,7 +378,10 @@
     <MESSAGE value="clean unused imports" />
     <MESSAGE value="intellij changes" />
     <MESSAGE value="clean todo comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean todo comments" />
+    <MESSAGE value="more readable code in Request class" />
+    <MESSAGE value="Add handle with array of quotes" />
+    <MESSAGE value="Add new Request ( returns number of quotes ), parse array of json objects, display all quotes from list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new Request ( returns number of quotes ), parse array of json objects, display all quotes from list" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/io/github/pankeny/Json.java" />
@@ -381,10 +414,42 @@
     <entry file="file://$PROJECT_DIR$/BreakingBadQuotes.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/json/json/20160810/json-20160810.jar!/org/json/JSONArray.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="90" column="28" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
+          <folding>
+            <element signature="e#2486#2487#0" expanded="true" />
+            <element signature="e#2536#2537#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/pankeny/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#554#561#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/pankeny/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="785">
+          <caret line="54" column="44" lean-forward="true" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/pankeny/Quote.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+        <state relative-caret-position="-105">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="e#117#118#0" expanded="true" />
             <element signature="e#145#146#0" expanded="true" />
@@ -394,25 +459,8 @@
             <element signature="e#283#284#0" expanded="true" />
             <element signature="e#327#328#0" expanded="true" />
             <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/pankeny/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/pankeny/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="54" column="44" lean-forward="true" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
           </folding>
         </state>
       </provider>
