@@ -42,7 +42,8 @@ public class Request {
         HttpURLConnection connection = openConnection();
 
         try {
-            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+            InputStreamReader streamReader = new InputStreamReader(connection.getInputStream());
+            BufferedReader bufferedReader = new BufferedReader(streamReader);
             String line;
 
             while((line = bufferedReader.readLine()) != null){
